@@ -957,9 +957,7 @@ def _plot_psd(method, freq, power, freq_indices, parameters, show, show_param, l
 ############################
 
 PSD_METHODS = {
-	'welch': welch_psd,
-	'ar': ar_psd,
-	'lomb': lomb_psd
+	'welch': welch_psd
 }
 
 
