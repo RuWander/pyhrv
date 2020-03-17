@@ -44,7 +44,7 @@ import matplotlib.pyplot as plt
 # Import toolbox functions
 import pyhrv
 import pyhrv.time_domain as td
-import pyhrv.frequency_domain as fd
+import pyhrv.frequency_domain_welch as fd
 import pyhrv.nonlinear as nl
 try:
 	from pyhrv import tools
