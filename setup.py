@@ -4,7 +4,7 @@ import setuptools
 from pyhrv import __author__, __version__, __email__, name, description
 # import matplotlib
 # matplotlib.use('TkAgg')
-with open("README.md", "r") as fh:
+with open("README.md", mode="r", encoding="utf-8") as fh:
 	long_description = fh.read()
 
 # Create setup
