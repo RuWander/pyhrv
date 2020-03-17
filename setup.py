@@ -25,7 +25,7 @@ setuptools.setup(
 		'biosppy',
 		'matplotlib',
 		'nolds',
-		'spectrum',
+		# 'spectrum',
 	],
 	install_requires=[
 		'biosppy',
@@ -33,7 +33,7 @@ setuptools.setup(
 		'numpy',
 		'scipy',
 		'nolds',
-		'spectrum',
+		# 'spectrum',
 	],
 
 	packages=setuptools.find_packages(),
